@@ -1,0 +1,19 @@
+import java.util.*;
+import java.io.*;
+
+public static void main(String[] args){
+
+Scanner sc=new (System.in);
+ 
+
+ System.out.println("Enter two numbers");
+ int a=sc.nextInt();
+ int b=sc.nextInt();
+
+ int addition=a+b;
+
+ System.out.println("The addition of the two numbers is:"+addition);
+
+ sc.close();
+
+ }
