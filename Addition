@@ -12,6 +12,8 @@ Scanner sc=new (System.in);
 
  int addition=a+b;
 
+ int subtraction=a-b;
+ System.out.println("The subtraction result is:"+subtraction);
  System.out.println("The addition of the two numbers is:"+addition);
 
  sc.close();
